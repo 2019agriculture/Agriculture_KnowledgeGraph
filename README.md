@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Agricultural Knowledge Graph
 
 项目demo：http://ecnukg.vicp.io 
@@ -357,3 +358,10 @@ sudo sh django_server_start.sh
 
 使用远程监督方法构建数据集，利用tensorflow训练PCNN模型
 详情见： [relationExtraction](https://github.com/qq547276542/Agriculture_KnowledgeGraph/tree/master/relationExtraction)
+=======
+# Agriculture_KnowledgeGraph
+农业知识图谱
+
+This project is the secondary development of the agricultural_knowledgeGraph.
+Compliance with the GPL Agreement
+>>>>>>> 7ab55149863f02fcc3299daa9e51b93738c6c042
