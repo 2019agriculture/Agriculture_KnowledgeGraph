@@ -147,9 +147,6 @@ MATCH (entity1:NewNode{title:line.Entity}), (entity2:HudongItem{title:line.Attri
 CREATE (entity1)-[:RELATION { type: line.AttributeName }]->(entity2)  
 
 //我们建索引的时候带了label，因此只有使用label时才会使用索引，这里我们的实体有两个label，所以一共做2*2=4次。当然，可以建立全局索引，即对于不同的label使用同一个索引
-
-
-
 ```
 
 **导入气候名称:**
@@ -213,7 +210,7 @@ sudo sh django_server_start.sh
 
 
 ----------------------
-###  (update 2018.11.11)
+###  (update 2019.3.4)
 
 测试实体类别
 
